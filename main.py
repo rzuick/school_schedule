@@ -1,5 +1,5 @@
-
-
+from school_schedule.student import Student
+# from filename.file import ClassName
 #first instance
 quinn = Student(
                 "Quinn", 
@@ -14,9 +14,9 @@ quinn = Student(
                 ]
             )
 
-quinn.add_class("Painting")
-quinn.get_num_classes()
-quinn.summary()
+print(quinn.add_class("Painting"))
+print(quinn.get_num_classes())
+print(quinn.summary())
 
 # second instance
 claire = Student(
